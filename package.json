@@ -1,0 +1,18 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "Replica del tablero de Trello",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "trello",
+    "tablero"
+  ],
+  "author": "Carolina Lastra",
+  "license": "ISC"
+}
