@@ -1,11 +1,66 @@
+body {
+  background-image: url(../../assets/img/background.jpg);
+  background-size: cover;
+}
+
 #headerMenu {
-  background-color: rgb(102, 87, 236);
+  background-color: rgba(0, 0, 0, 0.171);
+  height: 40px;
+  padding-left: 0.3%;
 }
 
 #btnBoard {
-  width: 10%;
+  font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+  color: #fafafa;
+  background-color: rgba(255, 255, 255, 0.3); 
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 31px;
+  font-size: small;
+}
+
+#trelloIcon {
+  font-size: 18px;
+  margin-right: 5px;
+  padding-left: 0;
 }
 
 #fontBoard {
-  display: inline;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+#inputSearch {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 3px;
+  margin-top: 4px;
+  cursor: text;
+  height: 31px;
+  opacity: 0.9;
+}
+
+#trelloBrand {
+  width: 6%;
+  margin-left: 25%;
+  opacity: 0.6;  
+  cursor: pointer;
+  background-position-x: 100%;
+  padding-bottom: 4px;
+}
+
+#trelloBrand:hover {
+  opacity: 0.8;
+}
+
+#btnBoard:hover {
+  opacity: 0.8;
+}
+
+#inputSearch:hover {
+  background-color: rgba(248, 248, 248, 0.452);
 }
