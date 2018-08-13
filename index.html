@@ -22,7 +22,8 @@
         <i class="fab fa-trello" id="trelloIcon"></i>
         <p id="fontBoard">Tableros</p>
       </button>
-      <input type="search" id="inputSearch"/><span class="fa fa-search" id="searchIconBtn"></span>
+      <input type="search" id="inputSearch" />
+      <span class="fa fa-search" id="searchIconBtn"></span>
       <i class="fas fa-search" id="searchIcon"></i>
       <img src="assets/img/logotrelloblanco.png" alt="logo trello" id="trelloBrand">
       <button id="btnPlus">
@@ -71,7 +72,7 @@
   <div id="cardListContainer"></div>
   <div id="addListContainer">
     <!-- botón para agregar lista -->
-    <button id="addCardBtn">
+    <button id="addCardBtn" onclick="window.addNewList()">
       <i class="fas fa-plus" id="addCardIcon"></i>
       <p id="AddListTitle">Añada una lista</p>
     </button>
@@ -88,7 +89,7 @@
     crossorigin="anonymous"></script>
 
   <!-- Javascript -->
-
+  <script src="src/model/model.js"></script>
 
 </body>
 
