@@ -1,6 +1,7 @@
 body {
   background-image: url(../../assets/img/background.jpg);
   background-size: cover;
+  height: 100vh;
 }
 
 #headerMenu {
@@ -80,21 +81,21 @@ body {
 
 #plusIcon {
   color: white;
-  background-color: #777;
+  background-color: rgba(119, 119, 119, 0.555);
 }
 
 #infoIcon {
   color: white;
-  background-color: #777;
+  background-color: rgba(119, 119, 119, 0.555);
 }
 
 #bellIcon {
   color: white;
-  background-color: #777;
+  background-color: rgba(119, 119, 119, 0.555);
 }
 
 #btnPlus {
-  background-color: #777;
+  background-color: rgba(119, 119, 119, 0.555);
   cursor: pointer;
   border-radius: 3px;
   border: none;
@@ -104,7 +105,7 @@ body {
 }
 
 #btnInfo {
-  background-color: #777;
+  background-color: rgba(119, 119, 119, 0.555);
   cursor: pointer;
   border-radius: 3px;
   padding-left: 9px;
@@ -116,7 +117,7 @@ body {
 }
 
 #btnBell {
-  background-color: #777;
+  background-color: rgba(119, 119, 119, 0.555);
   cursor: pointer;
   border-radius: 3px;
   border: none;
@@ -173,7 +174,7 @@ body {
 
 .divider {
   display: inline;
-  color: rgba(255, 255, 255, 0.808);
+  color: rgba(255, 255, 255, 0.726);
 }
 
 #lockIcon {
@@ -258,4 +259,68 @@ body {
   padding-bottom: 6px;
   font-size: 16px;
 }
+
+@media (min-width: 768px) {
+
+  #trelloBrand {
+    margin-left: 5%;
+    width: 10%;
+  }
+}
+
+#btnPlus {
+  margin-left: 26.5%;
+}
+
+@media (min-width: 320px) and (max-width: 750px){
+ 
+  #inputSearch {
+    display: none;
+  }
+
+  #fontBoard {
+    display: none;
+  }
+
+  #btnInfo {
+    display: none;
+  }
+
+  #trelloBrand {
+    margin-left: 18%;
+    width: 24%;
+  }
+
+  #btnPlus {
+    margin-left: 6%;
+  }
+
+  #addCardBtn {
+    margin-top: 5%;
+    padding-right: 40%;
+    margin-left: 2%;
+  }
+
+  #starIcon {
+    font-size: 12px;
+  }
+
+  #btnStar {
+    margin-right: 15%;
+  }
+
+  #searchIcon {
+    color: white;
+    background-color: rgba(119, 119, 119, 0.555);
+    padding: 8px;
+    border-radius: 3px;
+  }
+
+  #trelloBrand {
+    margin-left: 13%;
+  }
+
+}
+
+
 

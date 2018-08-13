@@ -23,7 +23,7 @@
         <p id="fontBoard">Tableros</p>
       </button>
       <input type="text" id="inputSearch">
-      <i class="fas fa-search"></i>
+      <i class="fas fa-search" id="searchIcon"></i>
       <img src="assets/img/logotrelloblanco.png" alt="logo trello" id="trelloBrand">
       <button id="btnPlus">
         <i class="fas fa-plus" id="plusIcon"></i>
@@ -47,7 +47,7 @@
     <button id="btnStar">
       <i class="far fa-star" id="starIcon"></i>
     </button>
-    <p class="divider">|</p>
+    <p class="divider" id="dividerOne">|</p>
     <button id="personal">Personal</button>
     <p class="divider">|</p>
     <button id="btnLock">
@@ -62,15 +62,15 @@
     </button>
     <button id="showMenuBtn">
       <p id="ellipsis">...</p>
-      <p id="menuDisplay">Mostrar Menú</p>
+      <p id="menuDisplay">Mostrar menú</p>
     </button>
   </div>
   <!-- Fin segundo menú -->
 
   <!-- Inicio agregar tarjeta -->
-  <div id="listCard"></div>
-  <div id="addingList">
-    <!-- boton para añadir lista -->
+  <div id="cardListContainer"></div>
+  <div id="addListContainer">
+    <!-- botón para agregar lista -->
     <button id="addCardBtn">
       <i class="fas fa-plus" id="addCardIcon"></i>
       <p id="AddListTitle">Añada una lista</p>
