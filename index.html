@@ -15,6 +15,7 @@
 
 <body>
 
+  <!-- Inicio menú principal -->
   <header>
     <div class="col-md-12" id="headerMenu">
       <button id="btnBoard">
@@ -24,18 +25,59 @@
       <input type="text" id="inputSearch">
       <i class="fas fa-search"></i>
       <img src="assets/img/logotrelloblanco.png" alt="logo trello" id="trelloBrand">
-      <button>
-        <i class="fas fa-plus"></i>
+      <button id="btnPlus">
+        <i class="fas fa-plus" id="plusIcon"></i>
       </button>
-      <button>
-        <i class="fas fa-info"></i>
+      <button id="btnInfo">
+        <i class="fas fa-info" id="infoIcon"></i>
       </button>
-      <button>
-        <i class="far fa-bell"></i>
+      <button id="btnBell">
+        <i class="far fa-bell" id="bellIcon"></i>
       </button>
       <img src="assets/img/Carolo.png" id="userImg" alt="foto del usuario">
     </div>
   </header>
+  <!-- Fin menú principal -->
+
+  <!-- Inicio segundo menú -->
+  <div class="col-md-12" id="secondMenu">
+    <button id="btnTitle">
+      Tablero - reto de código
+    </button>
+    <button id="btnStar">
+      <i class="far fa-star" id="starIcon"></i>
+    </button>
+    <p class="divider">|</p>
+    <button id="personal">Personal</button>
+    <p class="divider">|</p>
+    <button id="btnLock">
+      <i class="fas fa-lock" id="lockIcon"></i>
+      <p id="private">Privado</p>
+    </button>
+    <p class="divider">|</p>
+    <img src="assets/img/Carolo.png" id="userImgTwo" alt="foto del usuario">
+    <button id="userNumber">1</button>
+    <button id="btnUser">
+      <i class="fas fa-user-plus"></i>
+    </button>
+    <button id="showMenuBtn">
+      <p id="ellipsis">...</p>
+      <p id="menuDisplay">Mostrar Menú</p>
+    </button>
+  </div>
+  <!-- Fin segundo menú -->
+
+  <!-- Inicio agregar tarjeta -->
+  <div id="listCard"></div>
+  <div id="addingList">
+    <!-- boton para añadir lista -->
+    <button id="addCardBtn">
+      <i class="fas fa-plus" id="addCardIcon"></i>
+      <p id="AddListTitle">Añada una lista</p>
+    </button>
+  </div>
+  <!-- Fin agregar tarjeta -->
+
 
   <!-- bootstrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

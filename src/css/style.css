@@ -7,6 +7,8 @@ body {
   background-color: rgba(0, 0, 0, 0.171);
   height: 40px;
   padding-left: 0.3%;
+  padding-right: 0;
+  margin-bottom: 1vh;
 }
 
 #btnBoard {
@@ -64,3 +66,196 @@ body {
 #inputSearch:hover {
   background-color: rgba(248, 248, 248, 0.452);
 }
+
+#userImg {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  border-radius: 25em;
+  border: none;
+  float: right;
+  margin-top: 0.6vh;
+  margin-right: 0.6vh;
+}
+
+#plusIcon {
+  color: white;
+  background-color: #777;
+}
+
+#infoIcon {
+  color: white;
+  background-color: #777;
+}
+
+#bellIcon {
+  color: white;
+  background-color: #777;
+}
+
+#btnPlus {
+  background-color: #777;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  margin-left: 36%;
+  width: 31px;
+  height: 31px;
+}
+
+#btnInfo {
+  background-color: #777;
+  cursor: pointer;
+  border-radius: 3px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border: none;
+  width: 31px;
+  height: 31px;
+  font-size: 16px;
+}
+
+#btnBell {
+  background-color: #777;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  width: 31px;
+  height: 31px;
+  font-size: 16px;
+}
+
+#btnPlus:hover {
+  background-color: #666
+}
+
+#btnBell:hover {
+  background-color: #666
+}
+
+#btnInfo:hover {
+  background-color: #666;
+}
+
+#userImgTwo {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 25em;
+  border: none;
+}
+
+#btnTitle {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+#personal, #btnLock, #showMenuBtn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#btnStar {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;}
+
+.divider {
+  display: inline;
+  color: rgba(255, 255, 255, 0.808);
+}
+
+#lockIcon {
+  display: inline;
+}
+
+#private {
+  display: inline;
+}
+
+#personal:hover {
+  background-color: rgba(68, 68, 68, 0.712);
+}
+
+#btnLock:hover {
+  background-color: rgba(68, 68, 68, 0.712);
+}
+
+#btnTitle:hover {
+  background-color: rgba(68, 68, 68, 0.712);
+}
+
+#btnStar:hover {
+  background-color: rgba(68, 68, 68, 0.712);
+}
+
+#userNumber:hover {
+  background-color: rgba(68, 68, 68, 0.712);
+}
+
+#btnUser:hover {
+  background-color: rgba(68, 68, 68, 0.712);
+} 
+
+#userImgTwo:hover {
+  opacity: 0.7;
+} 
+
+#showMenuBtn:hover {
+  background-color: rgba(68, 68, 68, 0.808);
+}
+
+#addCardBtn:hover {
+  background-color: rgba(68, 68, 68, 0.445);
+}
+
+#userNumber, #btnUser {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 25em;
+  border: none;
+  color:white;
+  background-color: rgba(153, 153, 153, 0.315);
+}
+
+#showMenuBtn {
+  float: right;
+  font-size: 14px;
+}
+
+#ellipsis, #AddListTitle, #addCardIcon {
+ display: inline;
+}
+
+#menuDisplay {
+  display: inline;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+#addCardBtn {
+  background-color: rgba(153, 153, 153, 0.137);
+  border: none;
+  color: #fafafa;
+  cursor: pointer;
+  margin-left: 1%;
+  margin-top: 1%;
+  padding-right: 9%;
+  border-radius: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+
