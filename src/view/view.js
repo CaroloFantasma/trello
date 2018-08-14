@@ -24,7 +24,7 @@ window.closeBtn = function() {
 };
 
 window.addingList = function() {
-  const inputAddListValue = document.getElementById('newListInput').value;
+  inputAddListValue = document.getElementById('newListInput').value;
   const addingNewList = document.getElementById ('addListContainer');
   addingNewList.innerHTML = `
   <div class="form-group" id="newListWrapper">
@@ -37,18 +37,15 @@ window.addingList = function() {
 };
 
 window.addingAnotherList = function() {
-  // const inputAddListValue = document.getElementById('newListInput').value;
   const addingAnotherList = document.getElementById ('addListContainer');
   addingAnotherList.innerHTML = `
   <div class="form-group" id="newListWrapper">
-    // <p><strong>${inputAddListValue}</strong></p>
+    <p><strong>${inputAddListValue}</strong></p>
     <form>
-    <div class="form-group" id="newListWrapper">
-      <input type="text" id="newListInput" placeholder="Introduzca el título de la lista...">
-      <div>
-      <button type"button" id="addingListBtn" onClick= window.addingList()>Añadir tarjeta</button>
-      <button type="button" id="closeNewListBtn" onClick="window.closeBtn()"><i class="fas fa-times"></i></button>
-      </div>
+    <input type="text" id="newListInput" placeholder="Introduzca un título para esta tarjeta...">
+    <div>
+    <button type"button" id="addingListBtn" onClick= window.addingList()>Añada otra tarjeta</button>
+    <button type="button" id="closeNewListBtn" onClick="window.closeBtn()"><i class="fas fa-times"></i></button>
     </div>
   </form>
   </div>
