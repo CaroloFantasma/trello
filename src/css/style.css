@@ -322,6 +322,19 @@ body {
   cursor: pointer;
 }
 
+#addingCard {
+  background-color: transparent;
+  color: #888;
+  border:none;
+  width: 100%;
+  height: 6vh;
+  text-align: left;
+}
+
+#addingCard:hover {
+  background-color: rgba(136, 136, 136, 0.288);
+}
+
 @media (min-width: 644px) {
 
   #inputSearch {
