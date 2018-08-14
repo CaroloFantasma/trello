@@ -285,6 +285,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  display: inline-block;
 }
 
 #addingListBtn {
@@ -309,7 +310,7 @@ body {
   width: 100%;
   border-radius: 4px;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 #closeNewListBtn {
@@ -333,6 +334,10 @@ body {
 
 #addingCard:hover {
   background-color: rgba(136, 136, 136, 0.288);
+}
+
+#formContainer {
+  display: inline-block;
 }
 
 @media (min-width: 644px) {
